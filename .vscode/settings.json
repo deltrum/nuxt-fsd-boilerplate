@@ -1,0 +1,10 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "eslint.useFlatConfig": true,
+  "stylelint.validate": ["css", "vue"],
+  "editor.formatOnSave": false,
+  "css.validate": false
+}

@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-vue"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "order/properties-alphabetical-order": true,
+    "selector-class-pattern": null,
+    "custom-property-pattern": null,
+    "no-empty-source": null,
+    "declaration-empty-line-before": "never",
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen", "use", "forward"]
+    }]
+  },
+  "ignoreFiles": [
+    "node_modules/**",
+    ".nuxt/**",
+    ".output/**",
+    "dist/**"
+  ]
+}
