@@ -6,11 +6,12 @@ export default defineNuxtConfig({
   ],
 
   // FSD-aware component scanning
+  // Each slice's ui/ dir is registered with a Layer+Slice prefix.
+  // When adding a new slice, add: { path: '~/layer/sliceName/ui', prefix: 'LayerSliceName', pathPrefix: false }
   components: [
     { path: '~/shared/ui', prefix: 'Shared' },
-    { path: '~/entities', pathPrefix: true },
-    { path: '~/features', pathPrefix: true },
-    { path: '~/widgets', pathPrefix: true }
+    { path: '~/features/counter/ui', prefix: 'FeaturesCounter', pathPrefix: false },
+    { path: '~/widgets/header/ui', prefix: 'WidgetsHeader', pathPrefix: false }
   ],
 
   // Auto-import composables from FSD layers
