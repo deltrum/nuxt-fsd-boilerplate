@@ -27,14 +27,14 @@ useHead({
 }
 
 .home__title {
-  color: var(--color-primary-dark);
   font-size: 2.5rem;
   font-weight: 700;
+  color: var(--color-primary-dark);
 }
 
 .home__subtitle {
-  color: var(--color-text-muted);
-  font-size: 1.125rem;
   margin-top: 0.5rem;
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
 }
 </style>

@@ -24,18 +24,18 @@
 }
 
 .header__inner {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
   padding: 1rem 2rem;
 }
 
 .header__logo {
-  color: var(--color-primary-dark);
   font-size: 1.25rem;
   font-weight: 700;
+  color: var(--color-primary-dark);
 }
 
 .header__nav {

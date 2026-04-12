@@ -16,9 +16,9 @@
 
 .layout__content {
   flex: 1;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 2rem;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 </style>

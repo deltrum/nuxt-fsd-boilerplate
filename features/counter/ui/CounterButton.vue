@@ -29,12 +29,12 @@ const counter = useCounter()
 
 <style scoped>
 .counter {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  margin: 2rem auto;
-  max-width: 400px;
-  padding: 2rem;
 }
 
 .counter__value {
@@ -42,15 +42,15 @@ const counter = useCounter()
 }
 
 .counter__double {
-  color: var(--color-text-muted);
-  font-size: 0.875rem;
   margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
 }
 
 .counter__actions {
   display: flex;
-  gap: 0.75rem;
   justify-content: center;
+  gap: 0.75rem;
   margin-top: 1.5rem;
 }
 </style>

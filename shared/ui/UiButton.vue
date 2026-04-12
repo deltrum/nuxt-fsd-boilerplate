@@ -17,19 +17,19 @@ withDefaults(defineProps<{
 
 <style scoped>
 .btn {
-  border: 2px solid var(--color-primary);
-  border-radius: var(--radius);
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 600;
   min-width: 48px;
   padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius);
   transition: all 0.15s ease;
+  cursor: pointer;
 }
 
 .btn--primary {
-  background-color: var(--color-primary);
   color: #fff;
+  background-color: var(--color-primary);
 }
 
 .btn--primary:hover {
@@ -38,12 +38,12 @@ withDefaults(defineProps<{
 }
 
 .btn--outline {
-  background-color: transparent;
   color: var(--color-primary-dark);
+  background-color: transparent;
 }
 
 .btn--outline:hover {
-  background-color: var(--color-primary);
   color: #fff;
+  background-color: var(--color-primary);
 }
 </style>
